@@ -1,9 +1,4 @@
-let num1 = 3
+let driver = 120;
+let speed = driver > 110 ? "Above" : "Below";
 
-console.log(num1 > 0)
-console.log(num1 < 0)
-console.log(num1 >= 3)
-console.log(num1 <= 3)
-
-console.log(num1 === 3) // Se é igual
-console.log(num1 !== 3) // Se é diferente 
+console.log(speed);
