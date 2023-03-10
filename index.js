@@ -1,5 +1,5 @@
-let corCliente = undefined
-let corEstoque = 'black'
-let corVendida = corCliente || corEstoque
+let soma1 = 3 + 4 * 2
+console.log('Resultado: ' + soma1)
 
-console.log(corVendida)
+let soma2 = (3 + 4) * 2
+console.log('Resultado: ' + soma2)
