@@ -1,13 +1,7 @@
-/* const myCar = {
-    model: 'BMW',
-    year: 2023,
-    km: 68000
+let i = 1
+
+while (i <= 10) {
+    if (i === 8) break
+    console.log('10 + ', i ,' =', 10 + i)
+    i++
 }
-
-for (let i in myCar)
-console.log(i,':',myCar[i]) */
-
-const friends = ['Marcos', 'Ana', 'Jose']
-
-for (let i of friends)
-console.log(i)
