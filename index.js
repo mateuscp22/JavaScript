@@ -1,7 +1,4 @@
-const num = [7, 8, 9,]
+const num = [6, 7, 8, 9,]
 
-num.push(10, 11, 12) // fim do array
-num.unshift(1, 2, 3) // inicio do array
-num.splice(3, 0, 4, 5, 6) //posição , deletar?: 1 (sim), 0(não), numeros
-
-console.log(num)
+// console.log(num.indexOf(8)) // index
+console.log(num.includes(8))  // se existe ou não 
