@@ -1,7 +1,8 @@
-let num = [1, 2, 3, 4, 5, 6, 7, 8]
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+let letters = [ 'a', 'b','c']
 
-// num = []
-// num.length = 0
-num.splice(0, num.length) 
+all = numbers.concat(letters)
+half = all.slice(3, 5)
 
-console.log(num)
+console.log(all)
+console.log(half)
