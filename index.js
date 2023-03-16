@@ -1,7 +1,7 @@
-let clients = ['Matus', 'José', 'Marcela']
+let clients = ['Mateus', 'José', 'Marcela']
+
+//clients.sort() //Ordena o array - crescente
+clients.reverse() //Ordena o array - decrescente
+clients.reverse()
 
 console.log(clients)
-
-let clientsJoin = clients.join(', ')
-
-console.log(clientsJoin)
