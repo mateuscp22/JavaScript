@@ -1,7 +1,7 @@
-let clients = ['Mateus', 'José', 'Marcela']
+const tempLondon = [18, 13, 8, 2];
 
-//clients.sort() //Ordena o array - crescente
-clients.reverse() //Ordena o array - decrescente
-clients.reverse()
+const tempPositive = tempLondon.every(function (value) {
+  return value >= 0;
+}); //checa todos os valores na array
 
-console.log(clients)
+console.log(tempPositive);
