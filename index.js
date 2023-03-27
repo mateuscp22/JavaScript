@@ -1,20 +1,9 @@
-// Function Declaration
-function movie(){
-  console.log('The Matrix')
+/*            arguments */
+function price(/* a, b */) {
+  /* return a + b */
+  let total = 0;
+  for (let value of arguments) total += value;
+  return total;
 }
 
-movie()
-
-// Function Expression
-
-car()
-
-const car = function(){
-  console.log('Tesla')
-}
-
-/* car() */
-
-/* const truck = car
-
-truck() */
+console.log(price(10, 20, 40, 50));
