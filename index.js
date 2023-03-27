@@ -6,12 +6,15 @@ function movie(){
 movie()
 
 // Function Expression
+
+car()
+
 const car = function(){
   console.log('Tesla')
 }
 
-car()
+/* car() */
 
-const truck = car
+/* const truck = car
 
-truck()
+truck() */
