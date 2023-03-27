@@ -1,9 +1,5 @@
-/*            arguments */
-function price(/* a, b */) {
-  /* return a + b */
-  let total = 0;
-  for (let value of arguments) total += value;
-  return total;
+function carLoan(loan, rate = 2.9, years = 5) {
+  return ((loan * rate) / 100) * years + loan;
 }
 
-console.log(price(10, 20, 40, 50));
+console.log(carLoan(20000));
